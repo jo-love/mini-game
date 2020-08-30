@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="minigame.css" rel="stylesheet">
+  <title>Mini-game</title>
+</head>
+<body>
+  <header>
+    <h1>적을 맞춰라!</h1>
+  </header>
+<div class="bigBox">  
+  <div class="container">
+    <img id="vill" onclick="disappearVill()" src="images/villain.png">
+    <img id="civ"  onclick="disappearCiv()" src="images/civ.png">
+  </div> 
+  <div class="startBox">
+    <div class="sample" id="sample1"><img src="images/villain.png"></div>
+    <div class="sample" id="sample2"><img src="images/civ.png"></div>
+    <div class="pointWrap">
+      <p>Point</p>
+      <p id="killCnt">0</p>
+    </div>
+    <button type="button" class="btn" onclick="start()" >게임 시작하기</button>
+  </div> 
+</div>
+<script src="minigame.js"></script>
+</body>
+</html>

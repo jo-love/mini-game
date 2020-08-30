@@ -1,0 +1,101 @@
+@font-face {
+  src : url("../../../Library/Fonts/Typo_DecoSolidSlash.ttf"); 
+  font-family: "Typo"
+}
+@font-face {
+  src: url("../../../Library/Fonts/양진체v0.9_ttf.ttf");
+  font-family: "yang-gin";
+}
+* {
+  box-sizing: border-box;
+}
+h1 { 
+  font-family: "typo";
+  font-size: 3em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  border: 3px solid black;
+  background-color: lightskyblue;
+  margin: 30px auto 0 auto;
+  background-image: url('../3주차과제/images/buildingBg.png');
+  background-size: cover;
+  cursor: crosshair;
+}
+
+#vill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+}
+
+#civ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+}
+.bigBox {
+  position: absolute;
+  left: 20%;
+  margin-bottom: 30px;
+}
+.startBox {
+  background-color: lightskyblue;
+  width: 800px;
+  height: 150px;
+  position: relative; 
+  left: 0;
+  border: 3px solid black;
+  border-top: none;
+  text-align: center;
+}
+.sample {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#sample1::after {
+  content: ' :적';
+  color: white;
+  line-height: 50px;
+}
+#sample2::after {
+  content: ' :시민';
+  color: white;
+  line-height: 50px;
+}
+.pointWrap{
+  position: relative;
+  top: -80%;
+  right: -40%;
+  color: #f2ecff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.btn {
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  background: lightblue;
+  border: none;
+  color: #f2ecff;
+  border-radius: 20px;
+  font-family: 'yang-gin';
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.btn:hover{
+  color: black;
+}
+button {
+  cursor: pointer;
+}
