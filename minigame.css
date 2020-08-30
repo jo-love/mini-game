@@ -23,7 +23,7 @@ h1 {
   border: 3px solid black;
   background-color: lightskyblue;
   margin: 30px auto 0 auto;
-  background-image: url('../mini-game/images/buildingBg.png');
+  background-image: url('images/buildingBg.png');
   background-size: cover;
   cursor: crosshair;
 }
