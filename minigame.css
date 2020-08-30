@@ -1,9 +1,9 @@
 @font-face {
-  src : url("../../../Library/Fonts/Typo_DecoSolidSlash.ttf"); 
+  src : url('../../../../Library/Fonts/Typo_DecoSolidSlash.ttf'); 
   font-family: "Typo"
 }
 @font-face {
-  src: url("../../../Library/Fonts/양진체v0.9_ttf.ttf");
+  src: url('../../../../Library/Fonts/양진체v0.9_ttf.ttf');
   font-family: "yang-gin";
 }
 * {
@@ -23,7 +23,7 @@ h1 {
   border: 3px solid black;
   background-color: lightskyblue;
   margin: 30px auto 0 auto;
-  background-image: url('../3주차과제/images/buildingBg.png');
+  background-image: url('../mini-game/images/buildingBg.png');
   background-size: cover;
   cursor: crosshair;
 }
